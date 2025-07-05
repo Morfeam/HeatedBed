@@ -1,0 +1,105 @@
+(footprint "arduino_kit_potentiometer"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.075 -7.675 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "85380204-35ee-4cfc-924d-bf00616c5a23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "arduino_kit_potentiometer"
+		(at -5.075 -6.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c883c969-4593-416e-8e72-1e9e3808b07e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -5.075 -7.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92f0cd69-6256-4b98-aff1-603ed0180287")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -5.075 -7.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5894fd23-64c1-4e12-b1b1-e87ff999c12c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2 -2)
+		(end 11.8 12.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b70168c5-4c1c-4a67-851b-2defff790839")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -5.075 -4.675 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9f955753-2f13-4c22-a70d-639a859271b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 4.9 0)
+		(size 3 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "15e73d44-09a2-4b8e-bcd5-f8e29039ce60")
+	)
+	(pad "2" thru_hole circle
+		(at 2 10.6)
+		(size 3 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "22d6d267-2039-425a-a309-baf1b225ba78")
+	)
+	(pad "3" thru_hole circle
+		(at 7.8 10.6)
+		(size 3 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "306dd522-1478-4dd9-83b7-5fbf8fcd6919")
+	)
+	(embedded_fonts no)
+)

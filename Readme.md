@@ -1,5 +1,6 @@
-# Heated Bed for DIY 3d-Printer
+# Heated Bed Controller for 3d Printer
 
+![heated bed controller](heated_bed_controller.JPG)
 
 ## Summary
 
@@ -37,7 +38,7 @@ The standard output range on the Arduino PWM pin allows for values between 0 - 2
 Arduino drives MOSFET by sending PWM-capped PID values to the MOSFET gate pin (protected by 330R resistor). MOSFET then controls the flow of current from the 24v external power supply to the heated bed, heating it up (Arduino and MOSFET share ground).
 
 
-*Warning:* The values saved in [main.cpp]() were consistently off approx. 3 degrees fahrenheit of the actual temperature measured by the thermistor and another thermometer used to get a baseline reading of actual temps. A 3 degree fahrenheit error margin is acceptable for my purposes, but it's important to tune the Kp, Ki, and Kd values specific for your setup.
+*Warning:* The values saved in [main.cpp](https://github.com/Morfeam/HeatedBed/blob/main/src/main.cpp) were consistently off approx. 3 degrees fahrenheit of the actual temperature measured by the thermistor and another thermometer used to get a baseline reading of actual temps. A 3 degree fahrenheit error margin is acceptable for my purposes, but it's important to tune the Kp, Ki, and Kd values specific for your setup.
 
 
 ### Output To Display
@@ -61,7 +62,7 @@ Time: *time elapsed in milliseconds*
 - 1x IRF3205 MOSFET
 - Solid Core / Jumper Wires (22 AWG)
 - 1x Arduino Nano (ATmega328P)
-- 2x 10K ohm Resistor
+- 1x 10K ohm Resistor
 - 1x 330R ohm resistor
 - 1x 10K potentiometer
 - 2x 250V 10A Switches
