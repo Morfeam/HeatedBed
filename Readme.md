@@ -1,6 +1,6 @@
 # Heated Bed Controller for 3d Printer
 
-![heated bed controller](heated_bed_controller_top_view.JPG)
+![heated bed controller](heated_bed_controller_top_view.jpg)
 
 ## Summary
 
